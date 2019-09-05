@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/static/js/main.278b42d2.chunk.js",
+    "main.js.map": "/static/js/main.278b42d2.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.5432e2b6.js",
+    "runtime~main.js.map": "/static/js/runtime~main.5432e2b6.js.map",
+    "static/js/2.f071d29b.chunk.js": "/static/js/2.f071d29b.chunk.js",
+    "static/js/2.f071d29b.chunk.js.map": "/static/js/2.f071d29b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.607d11ef584f55e1a973edac6450b322.js": "/precache-manifest.607d11ef584f55e1a973edac6450b322.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/RickAudio.mp3": "/static/media/RickAudio.bd903cb1.mp3"
+  }
+}
