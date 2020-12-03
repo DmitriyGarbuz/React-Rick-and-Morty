@@ -1,22 +1,22 @@
 import styled from "styled-components";
 
 const TYPES = {
-    ACTIVE: "#4CAF50",
-    PASIVE: "#5e5e5e"
+  ACTIVE: "#4CAF50",
+  PASIVE: "#5e5e5e"
 }
 
 export default {
-BackgroundDiv: styled.div`
+  BackgroundDiv: styled.div`
 float:left; 
 width:200px; 
 height:200px;
 margin: 2px;
 margin-top: 13px;
 `,
-GlobalDiv: styled.div`
+  GlobalDiv: styled.div`
 float:left; 
 `,
-Buttons: styled.button`
+  Buttons: styled.button`
 margin-top: 20px;
 margin-left: 3px;
 display: inline-block;
@@ -27,12 +27,12 @@ text-align: center;
 outline: none;
 color: #fff;
 background-color: ${((props) => {
-return props.type && TYPES[props.type] 
-})}
+      return props.type && TYPES[props.type]
+    })}
 border-radius: 15px;
 box-shadow: 0 9px #999;
 `,
-loader: styled.div`
+  loader: styled.div`
     position: absolute;
     left: 50%;
     top: 30%;
@@ -55,5 +55,11 @@ loader: styled.div`
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
       }
-  `
+  `,
+  octo: styled.div`
+  margin-top: 5rem;
+  margin-left: 3rem;
+  font-size: 20px;
+
+`
 }
